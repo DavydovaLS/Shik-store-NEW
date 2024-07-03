@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+  <title>Магазин косметики Shik store</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="container nav">
+        <li>
+          <a href="#" class="logo">SHIK store</a>
+        </li>
+        <li>
+          <a href="#shop-items">Каталог</a>
+        </li>
+        <li>
+          <a href="#contacts">Контакты</a>
+        </li>
+        <li>
+          <div class="site-search">
+            <input type="search" id="search-input">
+            <button type="button" id="search-btn" class="fa fa-search"></i>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section id="shop-items">
+    </section>
+    <p id="nothing-found"></p>
+  </main>
+  <footer id="contacts" class="container">
+    <a href="#" class="logo">SHIK store</a>
+  </footer>
+  <template id="item-template">
+    <div class="shop-item">
+      <img src="">
+      <div class="content">
+        <h1></h1>
+        <p></p>
+        <span class="price"></span>
+      </div>
+    </div>
+  </template>
+  <script src="script.js"></script>
+</body>
+</html>
