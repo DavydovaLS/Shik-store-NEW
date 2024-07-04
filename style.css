@@ -148,3 +148,10 @@ footer {
   transform: translate(-50%, -50%);
   font-weight: 500;
 }
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
